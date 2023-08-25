@@ -5,27 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="rps css/rock_paper_scissors.css">
+    <link rel="stylesheet" href="rps css/button.css">
 </head>
 <body>
-    <container>
+    <div class="container">
+        
         <header>
             <div class="header_title">
-
+                <h1>ROCK PAPER & SCISSORS</h1>
             </div>
             <div class="header_text">
-
+                <p class="header_content" id="header_rules">Rules are simple, have fun and win!</p>
             </div>
             <div class="player_name_import">
-
+                import
             </div>
         </header>
 
         <main>
             <div class="hp_section">
                 <div class="hp_bar p1">
-                    <div class="player_name"></div>
-                    
+                    <div class="player_name">
+                        Player 1
+                    </div>
+                        
                     <div class="progres">
+                       
                         <div class="in"></div>
                     </div>
                 </div>
@@ -35,8 +40,10 @@
                 </div>
 
                 <div class="hp_bar p2">
-                    <div class="computer_name"></div>
-                    
+                    <div class="computer_name">
+                        Miroslav
+                    </div>
+                         
                     <div class="progres">
                         <div class="in"></div>
                     </div>
@@ -44,9 +51,10 @@
             </div>
 
             <div class="character_section">
-                <div class="p1"></div>
                 
-                <div class="p2"></div>
+                <div class="characters player_1"></div>
+                
+                <div class="characters player_2"></div>
             </div>
         </main>
 
@@ -63,6 +71,6 @@
                 <button class="scissors">scissors</button>
             </div>
         </footer>
-    </container>
+    </div>
 </body>
 </html>

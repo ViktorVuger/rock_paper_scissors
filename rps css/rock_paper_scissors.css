@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Sarpanch:900');
+
+body {
+    background-image:url('rain.gif'); 
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    height: auto;
+}
+
+div{
+    height: 50%;
+    width: 50%;
+
+    /*border:2px solid red;*/
+}
+
+header{
+    color: whitesmoke;
+    font-family: 'Press Start 2P';
+    text-align: center;
+
+
+    /*border: 2px solid red;*/
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+
+    background-color: rgb(1, 2, 16, 0.7);
+}
+
+.header_title {
+    font-size: 20px;
+    width: 60%;
+    height: 50%;
+}
+
+.header_text {
+    font-size: 15px;
+    width: 60%;
+    height: 25%;
+}
+
+.hp_section {
+    width: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.hp_bar  {
+    width: 35%;
+    height: 100px;
+    
+    display: flex;
+    flex-direction: column;
+
+    color: whitesmoke;
+    font-family: 'Press Start 2P';
+
+}
+
+.hp_bar.p1 {
+    text-align: end;
+    display: flex;
+    align-content: end;
+}
+
+.vs_div {
+    width: auto;
+    height: auto;
+    color: whitesmoke;
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 10vmin;
+    margin: 0;
+    padding: 30px;
+    color: #1d9099;
+    text-shadow: 1vmin 1vmin 0 rgb(26, 51, 84), -1vmin -1vmin 0 #D53A33;
+      
+}
+
+.player_name{
+    align-items: end;
+}
+
+.progres { 
+    width: 100%;
+    border: 6px solid rgb(26, 51, 84);
+}
+
+.in {
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    height: 50px;
+
+    background-color: rgb(207, 226, 255);
+    border: 0;
+}
+
+.character_section {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.characters {
+    width: 400px;
+    height: 400px;
+
+    margin-top: 5%;
+}
+
+.player_2 {
+    background-image: url('slime.gif');
+    
+}
+
+.choice {
+    width: auto;
+    height: auto;
+    margin: 3% 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
