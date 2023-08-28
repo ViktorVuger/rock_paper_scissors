@@ -1,0 +1,21 @@
+header,
+main,
+footer{
+    border: 2px solid red;
+    position: relative;
+
+}
+
+.container {
+    border: 2px solid blue;
+    width:500px;
+    height: 200px;
+    margin: 10px;
+
+    position: absolute;
+    bottom:0;
+}
+
+#c2 {
+    height: 450px;
+}
