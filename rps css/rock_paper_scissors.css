@@ -6,6 +6,8 @@ body {
     background-repeat:no-repeat;
     background-size: cover;
     margin:0;
+    margin: 0; height: 100%; overflow: hidden
+
 }
 
 .container {
@@ -19,7 +21,8 @@ body {
 .header_container,
 .footer_container { 
     background-color: rgb(1, 2, 16, 0.85);
-    height: 250px;
+
+    border: 2px solid red;
     
 }
 
@@ -39,16 +42,30 @@ header{
     align-self: center;
 }
 
+.container {
+    border:2px solid red;
+}
+
 .header_title {
     font-size: 20px;
     width: 60%;
     height: 50%;
+    
+    border:2px solid red;
+
+    margin: 1.5%;
+    margin-bottom: 0;
 }
 
 .header_text {
     font-size: 15px;
     width: 60%;
     height: 25%;
+    
+    border:2px solid red;
+
+    margin: 1%;
+    margin-bottom: 1.5%;
 }
 
 .hp_section {
@@ -59,6 +76,8 @@ header{
     align-items: center;
     flex-wrap: nowrap;
     justify-content: space-around;
+
+    border:2px solid red;
 }
 
 .hp_bar  {
@@ -71,17 +90,21 @@ header{
     color: whitesmoke;
     font-family: 'Press Start 2P';
 
+    border:2px solid blue;
+
 }
 
 .hp_bar.p1 {
     text-align: end;
     display: flex;
     align-content: end;
+
+    border:2px solid red;
 }
 
 .vs_div {
     width: auto;
-    height: auto;
+    height: 100px;
     color: whitesmoke;
     font-family: 'Sarpanch', sans-serif;
     font-size: 10vmin;
@@ -89,6 +112,9 @@ header{
     padding: 30px;
     color: #1d9099;
     text-shadow: 1vmin 1vmin 0 rgb(26, 51, 84), -1vmin -1vmin 0 #D53A33;
+    
+
+    border:2px solid red;
       
 }
 
@@ -99,6 +125,10 @@ header{
 .progres { 
     width: 100%;
     border: 6px solid rgb(26, 51, 84);
+}
+
+#progres_p1 {
+    border-color: rgb(109, 65, 86);
 }
 
 .in {
@@ -120,14 +150,16 @@ header{
     align-items: center;
     flex-wrap: nowrap;
     justify-content: space-between;
+
+    border:2px solid red;
 }
 
 .characters {
 
     width: 400px;
-    height: 400px;
+    height: 350px;
 
-    margin-top: 5%;
+    border:2px solid red;
 }
 
 .player_1{
@@ -142,14 +174,18 @@ header{
 .choice {
     width: auto;
     height: auto;
-    margin-top: 3%;
+    margin-top: 1%;
 
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
+    border:2px solid red;
 }
 
-@media (max-width: 600px) {
+
+
+@media (max-width: 705px) {
     .characters {
         display: none;
     }

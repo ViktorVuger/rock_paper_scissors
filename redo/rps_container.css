@@ -1,21 +1,28 @@
+body {
+    margin: 0; height: 100%; overflow: hidden
+}
+
 header,
 main,
 footer{
     border: 2px solid red;
     position: relative;
-
+    height:200px;
+    display: flex;
+    align-content: center;
 }
 
 .container {
     border: 2px solid blue;
     width:500px;
-    height: 200px;
-    margin: 10px;
+    height: 100px;
 
     position: absolute;
-    bottom:0;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #c2 {
-    height: 450px;
+    height: 150px;
 }
