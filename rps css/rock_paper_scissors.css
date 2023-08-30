@@ -10,6 +10,7 @@ body {
 
 }
 
+  
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -77,7 +78,6 @@ header{
 
     color: whitesmoke;
     font-family: 'Press Start 2P';
-
 }
 
 .hp_bar.p1 {
@@ -105,10 +105,11 @@ header{
 .progres { 
     width: 100%;
     border: 6px solid rgb(26, 51, 84);
+    background-color: rgb(213, 111, 111);
 }
 
-#progres_p1 {
-    border-color: rgb(109, 65, 86);
+#player_name {
+    margin: 0;
 }
 
 .in {
@@ -133,11 +134,8 @@ header{
 }
 
 .characters {
-
     width: 400px;
     height: 350px;
-
-    
 }
 
 .player_1{
