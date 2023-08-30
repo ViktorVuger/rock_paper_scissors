@@ -21,8 +21,6 @@ body {
 .header_container,
 .footer_container { 
     background-color: rgb(1, 2, 16, 0.85);
-
-    border: 2px solid red;
     
 }
 
@@ -42,17 +40,11 @@ header{
     align-self: center;
 }
 
-.container {
-    border:2px solid red;
-}
-
 .header_title {
     font-size: 20px;
     width: 60%;
     height: 50%;
     
-    border:2px solid red;
-
     margin: 1.5%;
     margin-bottom: 0;
 }
@@ -61,8 +53,6 @@ header{
     font-size: 15px;
     width: 60%;
     height: 25%;
-    
-    border:2px solid red;
 
     margin: 1%;
     margin-bottom: 1.5%;
@@ -76,8 +66,6 @@ header{
     align-items: center;
     flex-wrap: nowrap;
     justify-content: space-around;
-
-    border:2px solid red;
 }
 
 .hp_bar  {
@@ -90,16 +78,12 @@ header{
     color: whitesmoke;
     font-family: 'Press Start 2P';
 
-    border:2px solid blue;
-
 }
 
 .hp_bar.p1 {
     text-align: end;
     display: flex;
     align-content: end;
-
-    border:2px solid red;
 }
 
 .vs_div {
@@ -112,10 +96,6 @@ header{
     padding: 30px;
     color: #1d9099;
     text-shadow: 1vmin 1vmin 0 rgb(26, 51, 84), -1vmin -1vmin 0 #D53A33;
-    
-
-    border:2px solid red;
-      
 }
 
 .player_name{
@@ -150,8 +130,6 @@ header{
     align-items: center;
     flex-wrap: nowrap;
     justify-content: space-between;
-
-    border:2px solid red;
 }
 
 .characters {
@@ -159,7 +137,7 @@ header{
     width: 400px;
     height: 350px;
 
-    border:2px solid red;
+    
 }
 
 .player_1{
@@ -180,7 +158,12 @@ header{
     align-items: center;
     justify-content: space-evenly;
 
-    border:2px solid red;
+    
+}
+
+#choice_p1 {
+    margin-top: 10px;
+    border:4px solid red;
 }
 
 
